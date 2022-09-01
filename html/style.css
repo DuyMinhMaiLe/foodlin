@@ -1,0 +1,66 @@
+/* CHARACTER STYLES & COLOR SWATCHES */
+:root {
+    --kieuchuchinh: 'Open Sans', sans-serif, italic ;
+}
+
+:root {
+    --maudo: #D3072B;
+    --mauvang: #FFDEA0;
+    --mauden: #030408;
+    --mauphu1: #575757;
+    --mauphu2: #25252D;
+}
+/* UNIVERSAL */
+    * {
+        font-family: var(--kieuchuchinh);
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* Begin-Header */
+
+.nav-link {
+    font-family: var(--kieuchuchinh);
+    font-weight: 700;
+    color: var(--mauden);
+}
+.nav-item :hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+.nav-link .disabled {
+    color: var(--mauden);
+    pointer-events: none;
+    cursor: default;
+}
+.nav-link.active {
+    color: var(--maudo);
+    font-family: var(--kieuchuchinh);
+    font-style: oblique;
+    font-weight: bold;
+}
+.hoa {
+    z-index: -1;
+    position: absolute;
+    left: -195px;
+    top: -150px;
+}
+/* End-Header */
+
+/* Begin-Body */
+
+.tieude {
+
+    font-family: var(--kieuchuchinh);
+    left: 100px;
+}
+.td1 {
+    color: var(--maudo);
+    font-style: inherit;
+}
+.td2 {
+    font-family: var(--kieuchuchinh);
+    font-style: normal;
+    font-size: 20px;
+    list-style: none;
+}

@@ -1,0 +1,409 @@
+/* CHARACTER STYLES & COLOR SWATCHES */
+:root {
+	--kieuchuchinh: 'Open Sans', sans-serif, italic;
+
+	--maudo: #d3072b;
+	--mauvang: #ffdea0;
+	--mauden: #030408;
+	--mauphu1: #575757;
+	--mauphu2: #25252d;
+}
+/* UNIVERSAL */
+* {
+	font-family: var(--kieuchuchinh);
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(255, 222, 160);
+	height: 5300px;
+}
+
+/* Begin-Header */
+
+.nav-link {
+	font-family: var(--kieuchuchinh);
+	font-weight: 700;
+	color: var(--mauden);
+}
+.nav-item :hover {
+	color: rgba(0, 0, 0, 0.6);
+}
+.nav-link .disabled {
+	color: var(--mauden);
+	pointer-events: none;
+	cursor: default;
+}
+.nav-link.active {
+	color: var(--maudo);
+	font-family: var(--kieuchuchinh);
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.hoa {
+	z-index: -1;
+	position: absolute;
+	left: -195px;
+	top: -150px;
+}
+.order {
+	background-color: var(--maudo);
+	height: 40px;
+	width: 140px;
+	position: relative;
+	border-radius: 20px;
+	left: 110px;
+	top: 300px;
+}
+.order > a {
+	text-decoration: none;
+	font-family: var(--kieuchuchinh);
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	left: 20px;
+	top: 7px;
+	font-size: 18px;
+}
+.booking {
+	background-color: var(--maudo);
+	height: 40px;
+	width: 170px;
+	position: relative;
+	border-radius: 20px;
+	left: 110px;
+	top: 320px;
+}
+.booking > a {
+	text-decoration: none;
+	font-family: var(--kieuchuchinh);
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	left: 25px;
+	top: 7px;
+	font-size: 18px;
+}
+
+.tieude {
+	font-family: var(--kieuchuchinh);
+	left: 80px;
+	position: absolute;
+}
+.td1 {
+	color: var(--maudo);
+	font-style: inherit;
+}
+.td2 {
+	font-family: var(--kieuchuchinh);
+	font-style: normal;
+	font-size: 20px;
+	list-style: none;
+}
+.ship {
+	top: 80px;
+	right: 50px;
+	position: absolute;
+}
+.hinhtron {
+	float: right;
+}
+.pizza {
+	top: 500px;
+	position: absolute;
+	right: 0px;
+}
+.content {
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+	top: 600px;
+	position: absolute;
+	left: 400px;
+	font-family: var(--kieuchuchinh);
+	font-weight: bold;
+}
+.member {
+	text-align: center;
+	top: 600px;
+	position: absolute;
+	left: 590px;
+}
+.view {
+	list-style: none;
+	display: inline-block;
+	font-family: var(--kieuchuchinh);
+	font-weight: 600;
+}
+.arrow-left {
+	position: absolute;
+	left: 11%;
+	bottom: 42%;
+}
+.arrow-right {
+	position: absolute;
+	left: 45%;
+	bottom: 42%;
+}
+.star {
+	color: var(--maudo);
+	left: 52%;
+	bottom: 42%;
+	position: absolute;
+}
+/* End-Header */
+
+/* Begin-Body */
+
+.best {
+	position: absolute;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	font-weight: 800;
+	font-size: 30px;
+	left: 35%;
+	top: 100%;
+}
+
+/* Place */
+#content {
+	top: 850px;
+	position: absolute;
+	left: 24%;
+}
+.place-img {
+	width: 100%;
+	display: block;
+}
+
+.place-img:hover {
+	opacity: 0.6;
+}
+
+.places-list {
+	margin-top: 32px;
+	text-align: center;
+}
+.place-body {
+	background-color: #fff;
+	padding: 16px;
+	font-size: 15px;
+	border-radius: 10%;
+}
+.place-heading {
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--maudo);
+	font-weight: bolder;
+}
+
+/* Our-Vendors */
+.our-vendor {
+	position: absolute;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	font-weight: 800;
+	font-size: 30px;
+	top: 155%;
+	left: 41%;
+}
+.mechilin-1 {
+	position: absolute;
+	left: 80%;
+	top: 170%;
+}
+.vendor-img {
+	position: absolute;
+	top: 170%;
+	left: 24%;
+}
+.see-more {
+	position: absolute;
+	top: 210%;
+	left: 28%;
+	text-decoration: none;
+	color: var(--maudo);
+	font-family: var(--kieuchuchinh);
+}
+/* Our-app */
+.our-app {
+	position: absolute;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	font-weight: 800;
+	font-size: 30px;
+	top: 250%;
+	left: 43%;
+}
+.mechilin-2 {
+	position: absolute;
+	left: 24%;
+	top: 270%;
+}
+.ip-1 {
+	position: absolute;
+	left: 71%;
+	top: 280%;
+}
+.ip-2 {
+	position: absolute;
+	left: 56%;
+	top: 340%;
+}
+.ip-3 {
+	position: absolute;
+	left: 40%;
+	top: 300%;
+}
+.ip-4 {
+	position: absolute;
+	left: 24%;
+	top: 340%;
+}
+/* Our-booking */
+.our-booking {
+	position: absolute;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	font-weight: 800;
+	font-size: 30px;
+	top: 420%;
+	left: 43%;
+}
+.mechilin-3 {
+	position: absolute;
+	left: 45%;
+	top: 440%;
+}
+.ip-5 {
+	position: absolute;
+	left: 24%;
+	top: 470%;
+}
+.ip-6 {
+	position: absolute;
+	left: 45%;
+	top: 500%;
+}
+.ip-7 {
+	position: absolute;
+	left: 66%;
+	top: 530%;
+}
+/* Review */
+.avt {
+	position: absolute;
+	left: 24%;
+	top: 600%;
+}
+.review {
+	position: absolute;
+	left: 55%;
+	top: 600%;
+	list-style: none;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+}
+.question {
+	position: absolute;
+	left: 55%;
+	top: 605%;
+	color: var(--maudo);
+	font-family: var(--kieuchuchinh);
+	font-weight: 800;
+}
+.name-review {
+	position: absolute;
+	left: 60%;
+	top: 620%;
+	list-style: none;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+}
+.cmt {
+	position: absolute;
+	left: 55%;
+	top: 630%;
+	list-style: none;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	font-size: 14px;
+}
+.td {
+	position: absolute;
+	left: 55%;
+	top: 620%;
+}
+.star-review {
+	position: absolute;
+	left: 60%;
+	top: 624%;
+	color: var(--maudo);
+}
+.member-review {
+	position: absolute;
+	left: 53%;
+	top: 633%;
+}
+
+/* Footer */
+.content-footer {
+	position: absolute;
+	font-family: var(--kieuchuchinh);
+	color: var(--maudo);
+	list-style: none;
+	left: 35%;
+	top: 670%;
+}
+.h2-ft {
+	font-weight: 700;
+}
+.li-ft {
+	text-align: center;
+}
+
+#footer {
+	background-color: white;
+	position: relative;
+	top: 100%;
+	height: 300px;
+}
+.foodlin-ft {
+	color: var(--maudo);
+	font-family: var(--kieuchuchinh);
+	font-weight: 700;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+.atfoodlin {
+	font-family: var(--kieuchuchinh);
+	list-style: none;
+	font-weight: 600;
+	position: absolute;
+	top: 45%;
+	left: 10%;
+}
+.about {
+	font-family: var(--kieuchuchinh);
+	list-style: none;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+.company {
+	font-family: var(--kieuchuchinh);
+	list-style: none;
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
+.support {
+	font-family: var(--kieuchuchinh);
+	list-style: none;
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
